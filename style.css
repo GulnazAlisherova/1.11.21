@@ -34,3 +34,9 @@ text-align: center;
 flex-basis: 100%;
 
 }
+footer{
+  display: flex;
+}
+footer input {
+  flex-grow: 1;
+}
