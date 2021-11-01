@@ -1,13 +1,21 @@
 .message{
-  border-radius: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
-  margin: 15px;
 }
 .message-in{
-  background-color:grey ;
+  background-color:lightgrey ;
+align-self: flex-end;
+
 }
 .message-out{
   background-color: blue;
   color: white;
+  align-self:flex-start  ;
+  border-radius: 15px;
+}
+.message-list{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-right: 20%;
 }
